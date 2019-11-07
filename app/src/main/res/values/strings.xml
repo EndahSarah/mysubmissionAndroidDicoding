@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MySubmissionDicoding</string>
+    <string name="historys_name">Sejarah Android</string>
+    <string name="release">Release</string>
+    <string name="detail">Detail</string>
+    <string name="about">About</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/historys_name"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="300dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_item_release"
+                android:layout_width="393dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/release"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_item_detail"
+                android:layout_width="394dp"
+                android:layout_height="454dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/detail"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                tools:listitem="@layout/activity_detail" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
